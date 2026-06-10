@@ -1,12 +1,15 @@
 ﻿# Zcart
 
-Zcart is a modern React-based ecommerce storefront built with Create React App and Tailwind CSS. It includes product discovery, filtering, product detail pages, cart management, and responsive navigation for desktop and mobile.
+Zcart is a modern React-based ecommerce storefront built with Create React App and Tailwind CSS. It features a premium dark UI, fast product filtering, and responsive navigation across desktop and mobile.
 
 ## Features
 
 - Product listing with search, category, brand, rating, and price filters
-- Mobile and desktop filter panels
-- Product detail pages with image previews and add-to-cart support
+- Sticky navbar with quick access to Home, Products, About, Contact, cart, and sign-in
+- Product cards with large preview images, ratings, and add-to-cart actions
+- Responsive filter panel for desktop and a mobile-friendly filter drawer
+- Contact page with a support card and message form
+- About page with mission, vision, and value propositions
 - Shopping cart state managed with React Context
 - Smooth scrolling and polished UI interactions
 - Clerk authentication support via `@clerk/clerk-react`
@@ -14,13 +17,19 @@ Zcart is a modern React-based ecommerce storefront built with Create React App a
 
 ## Screenshots
 
-### Homepage
+### Products Page
 
-![Zcart homepage screenshot](src/assets/banner1.jpg)
+![Products page screenshot](src/assets/banner1.jpg)
 
-### Empty cart state
+This screen shows the product exploration area with the filter sidebar, product count badge, and card-based product layout.
 
-![Empty cart illustration](src/assets/empty-cart.png)
+### About Page
+
+The About screen highlights Zcart’s mission, vision, and reasons to choose the store, matching the clean card layout and polished typography shown in the screenshot.
+
+### Contact Page
+
+The Contact screen includes a support panel with address, email, and phone details alongside a styled contact form.
 
 ## Installation
 
